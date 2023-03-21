@@ -1,0 +1,28 @@
+.listContainer {
+    padding: 10px;
+    background: rgb(254,255,0);
+    background: linear-gradient(315deg, rgba(254,255,0,1) 0%, rgba(255,132,0,1) 100%);
+    border-radius: 10px;
+    width: 350px;
+    list-style: none;
+    box-shadow: 0 0 4px rgb(100, 100, 100);
+}
+
+.author {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text {
+    font-family: Inter;
+    font-size: 14px;
+}
+
+ul {
+    padding: 0;
+    margin: 0 12%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

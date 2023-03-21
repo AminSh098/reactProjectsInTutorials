@@ -1,0 +1,26 @@
+:root {
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #0077ed;
+  background: rgb(254,255,0);
+background: linear-gradient(155deg, rgba(254,255,0,1) 0%, rgba(255,132,0,1) 60%);
+}
+
+div {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  gap: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+  align-items: center;
+}

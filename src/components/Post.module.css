@@ -1,0 +1,25 @@
+.post {
+    padding: 10px;
+    margin-top: 20px;
+    background: rgb(254,255,0);
+    background: linear-gradient(315deg, rgba(254,255,0,1) 0%, rgba(255,132,0,1) 100%);
+    box-shadow: 0 0 4px rgb(100, 100, 100);
+    border-radius: 5px;
+    width: 354px;
+}
+
+.author , .text{
+    margin: 0;
+    color: black;
+}
+
+.text {
+    opacity: .9;
+    padding-top: 10px;
+    width: 240px;
+}
+
+.author {
+    font-size: 18px;
+    width: 100px;
+}
